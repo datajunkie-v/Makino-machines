@@ -12,13 +12,19 @@ Models such as **Decision Trees, Random Forest, and Naive Bayes** are implemente
 ```bash
 git clone https://github.com/your-username/makino.git
 cd makino
-
-
+```
+### 2. Create a Virtual Environment (Optional but Recommended)
+```bash
 python -m venv venv
 source venv/bin/activate   # On macOS/Linux
 venv\Scripts\activate      # On Windows
+```
+### 3. Install Requirements
+```bash
+pip install -r requirements.txt
+```
 
-pip install -r requirements.txt     #installing requirements
-
-jupyter notebook notebooks/makino.ipynb     #running the notebook
-
+### 4. Run the Notebook
+```bash
+jupyter notebook notebooks/makino.ipynb
+```
